@@ -1,1 +1,1 @@
-init
+# Operating environment initialization
