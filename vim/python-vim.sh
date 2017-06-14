@@ -1,3 +1,4 @@
+touch ~/.vimrc
 
 grep -q 'syntax on' ~/.vimrc || echo 'syntax on' >> ~/.vimrc
 
