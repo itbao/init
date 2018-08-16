@@ -1,0 +1,7 @@
+
+IP=192.168.1.$1
+
+PSC="[\[\e[36m\]@\[\e[m\]\[\e[33m\]${IP}\[\e[m\]\[\e[35m\]\w\[\e[m\]]\[\e[31m\]#\[\e[m\] "
+
+ssh  $IP -t "export IP=\$IP; export PS1=\"$PSC\"; bash --login"
+
